@@ -14,4 +14,5 @@ phases:
     commands:
       - echo "Updating lambda Function..."
       - aws lambda update-function-code --function-name codepipe-line --zip-file fileb://deployment_package.zip
+      - aws lambda update-function-code --function-name code-pipeline2 --zip-file fileb://deployment_package.zip
       - echo "DONE!!"
