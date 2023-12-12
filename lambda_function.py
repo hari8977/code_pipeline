@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     :return:
     """
 
-    demo_dict = {"a": 1, "b":2}
+    demo_dict = {"a": 1, "b":2, "c":3}
     print(demo_dict)
     c= {"name":"telivox"}
     for x in range(1, 10):
